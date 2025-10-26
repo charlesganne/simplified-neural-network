@@ -1,6 +1,4 @@
 #include "reseau.h"
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_ttf.h>
 
 Network init_layer_list() {
 	Network n = (Network)malloc(sizeof(Layer_list));
